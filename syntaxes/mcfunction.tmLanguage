@@ -357,7 +357,7 @@
 						</dict>
 					</dict>
 					<key>match</key>
-					<string>(function) ([a-z_\-1-9]+:)([a-z_\-1-9]+(?:\/[a-z\-_1-9]+)*)(\/?)</string>
+					<string>(function) (#?[a-z_\-\.1-9]+:)([a-z_\-\.1-9]+(?:\/[a-z_\-\.1-9]+)*)(\/?)</string>
 				</dict>
 				<dict>
 					<key>captures</key>
