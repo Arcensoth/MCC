@@ -1282,7 +1282,7 @@
 								</dict>
 							</dict>
 							<key>match</key>
-							<string>(team|tag)(=!?)([\w-]+),?</string>
+							<string>(team|tag)(=!?)([a-z_\-\.1-9]+),?</string>
 						</dict>
 						<dict>
 							<key>captures</key>
@@ -1319,9 +1319,14 @@
 									<key>name</key>
 									<string>support.type.mcc</string>
 								</dict>
+								<key>4</key>
+								<dict>
+									<key>name</key>
+									<string>support.type.mcc</string>
+								</dict>
 							</dict>
 							<key>match</key>
-							<string>(type)(=!?)(llamas|evocation_fangs|lightning_bolt|llama_spit|parrot|player|(?:chest|commandblock|furnace|hopper|spawner|tnt)_|(?:minecart)|(?:(?:skeleton|zombie)_|)(?:horse)|(?:illusion|evocation|vindication)_illager|(?:zombie)(?:_(?:pigman|villager)|)|area_effect_cloud|armor_stand|arrow|bat|blaze|boat|cave_spider|chicken|cow|creeper|donkey|dragon_fireball|egg|elder_guardian|ender_(?:pearl|crystal|dragon)|enderman|endermite|eye_of_ender_signal|falling_block|fireball|fireworks_rocket|ghast|giant|guardian|husk|item_frame|item|leash_knot|magma_cube|mooshroom|mule|ocelot|painting|pig|polar_bear|potion|rabbit|sheep|shulker_bullet|shulker|silverfish|skeleton_horse|skeleton|slime|small_fireball|snowball|snowman|spectral_arrow|spider|squid|stray|tnt|vex|villager_golem|villager|witch|wither_skeleton|wither|wolf|xp_(?:bottle|orb)),?</string>
+							<string>(type)(=!?)(\w+:)?(llamas|evocation_fangs|lightning_bolt|llama_spit|parrot|player|(?:chest|commandblock|furnace|hopper|spawner|tnt)_|(?:minecart)|(?:(?:skeleton|zombie)_|)(?:horse)|(?:illusion|evocation|vindication)_illager|(?:zombie)(?:_(?:pigman|villager)|)|area_effect_cloud|armor_stand|arrow|bat|blaze|boat|cave_spider|chicken|cow|creeper|donkey|dragon_fireball|egg|elder_guardian|ender_(?:pearl|crystal|dragon)|enderman|endermite|eye_of_ender_signal|falling_block|fireball|fireworks_rocket|ghast|giant|guardian|husk|item_frame|item|leash_knot|magma_cube|mooshroom|mule|ocelot|painting|pig|polar_bear|potion|rabbit|sheep|shulker_bullet|shulker|silverfish|skeleton_horse|skeleton|slime|small_fireball|snowball|snowman|spectral_arrow|spider|squid|stray|tnt|vex|villager_golem|villager|witch|wither_skeleton|wither|wolf|xp_(?:bottle|orb)),?</string>
 						</dict>
 						<dict>
 							<key>include</key>
